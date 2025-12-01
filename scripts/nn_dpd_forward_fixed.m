@@ -28,7 +28,7 @@ b2 = fc2.Bias;     % [64 × 1]
 W3 = fc3.Weights;  % [2 × 64]
 b3 = fc3.Bias;     % [2 × 1]
 
-[M, numFeat] = size(X_dpd); %#ok<NASGU>
+[M, numFeat] = size(X_dpd); 
 
 %% 2. 各层权重/偏置量化范围（根据 analyze_net_weights 的统计）
 
