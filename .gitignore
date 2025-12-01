@@ -1,0 +1,22 @@
+# MATLAB 临时文件
+*.asv
+*.mex*
+*.mat~
+*.fig
+
+# Simulink 缓存 & 自动生成
+slprj/
+**/*.slxc
+
+# 代码生成 / HDL Coder 中间文件
+codegen/
+hdlsrc/
+work/
+
+# IDE / 系统文件
+.DS_Store
+Thumbs.db
+
+# 大体积数据（按需要）
+data/*.mat
+logs/
