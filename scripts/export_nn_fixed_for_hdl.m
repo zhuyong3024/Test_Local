@@ -23,8 +23,8 @@ W3 = fc3.Weights;  % [2 × 64]
 b3 = fc3.Bias;     % [2 × 1]
 
 %% 2. 选定定点位宽（和你在 test_NN_predistorter_fixedNN 中选的一致）
-B_W = 10;   % <<== 根据你的实验结果修改
-B_A = 10;   % <<== 激活位宽，后面定义中间层 numerictype 用
+B_W = 12;   % <<== 根据你的实验结果修改
+B_A = 12;   % <<== 激活位宽，后面定义中间层 numerictype 用
 
 % 可以把 nn_dpd_forward_fixed.m 中的 xmax_* 复制过来，保证行为一致
 % fc1
