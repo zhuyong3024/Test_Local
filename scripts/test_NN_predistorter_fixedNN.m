@@ -1,8 +1,5 @@
 %% test_NN_predistorter_fixedNN.m
 % 目的：比较 浮点 NN-DPD 与 定点 NN-DPD 在系统 EVM/ACLR 上的差异
-
-clear; clc;
-
 %% 1. 加载网络和系统参数
 S = load('../nn/net_dpd_post.mat', 'netPost', 'K', 'NR');
 netPost = S.netPost;

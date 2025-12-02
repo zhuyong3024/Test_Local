@@ -37,6 +37,6 @@ P_adj_total = sum(P(idx_adj));
 % 两侧频带合成一个"等效单侧邻道"
 P_adj = P_adj_total / 2;
 
-acpr_dB = 10 * log10(P_main / P_adj);
+acpr_dB = 10 * log10(P_adj / P_main);
 
 end
