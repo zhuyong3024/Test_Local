@@ -1,4 +1,4 @@
-%% export_nn_fixed_for_hdl.m
+%% export_nn_fixed_for_hdl.m（废弃废弃废弃）
 % 目的：从 net_dpd_post.mat 中导出 NN-DPD 权重/偏置，
 %       按 nn_dpd_forward_fixed.m 中的定点设计进行量化，
 %       并转成 fi，供 Simulink + HDL Coder 使用。
